@@ -16,13 +16,14 @@ router.get('/', function(req, res) {
 		}
 		orderDetails.push(orderInfo);
 	}
+	//  TODO: Describe the contents of the orderDetails object
 	res.render('orders', { title: 'Current Orders', orderList: orderDetails });
 });
 
 router.ordersForCustomer = function(cust) {
 	var myOrders = [];
 	//  TODO: add to the myOrders array
-	//          add all orders with the same CustomeNo as the cust parameter
+	//          add all orders with the same CustomerNo as the cust parameter
 	return myOrders;
 };
 
@@ -54,4 +55,6 @@ router.init = function() {
 	orders.push(new Order('Order 12a', 'Cust 6', [12, 24, 12, 13]));
 };
 
-router.count = function() { return orders.length; };
+router.count = function() {
+	//  TODO: Return the number of orders
+};

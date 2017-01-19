@@ -14,41 +14,20 @@ var Product = function(prodNo, desc) {
 	this.Description = desc;
 };
 
-router.productsForOrders = function(prod) {
-	for ( var i = 0; i < products.length; i++) {
-		if (products[i].ProductNo == prod) {
-			return products[i];
-		}
-	}
+router.productsForOrders = function(productNo) {
+	//  TODO: Find the Product in the products array that matches the productNo parameter.
+	//      Once found return that Product
 };
 
 var products = [];
 
 router.init = function() {
-	products.push(new Product( 1, 'Prod  1'));
-	products.push(new Product( 2, 'Prod  2'));
-	products.push(new Product( 3, 'Prod  3'));
-	products.push(new Product( 4, 'Prod  4'));
-	products.push(new Product( 5, 'Prod  5'));
-	products.push(new Product( 6, 'Prod  6'));
-	products.push(new Product( 7, 'Prod  7'));
-	products.push(new Product( 8, 'Prod  8'));
-	products.push(new Product( 9, 'Prod  9'));
-	products.push(new Product(10, 'Prod 10'));
-	products.push(new Product(11, 'Prod 11'));
-	products.push(new Product(12, 'Prod 12'));
-	products.push(new Product(13, 'Prod 13'));
-	products.push(new Product(14, 'Prod 14'));
-	products.push(new Product(15, 'Prod 15'));
-	products.push(new Product(16, 'Prod 16'));
-	products.push(new Product(17, 'Prod 17'));
-	products.push(new Product(18, 'Prod 18'));
-	products.push(new Product(19, 'Prod 19'));
-	products.push(new Product(20, 'Prod 20'));
-	products.push(new Product(21, 'Prod 21'));
-	products.push(new Product(22, 'Prod 22'));
-	products.push(new Product(23, 'Prod 23'));
-	products.push(new Product(24, 'Prod 24'));
+	//  TODO: Create 24 Products
+	//      ProductNo is just 1 to 24
+	//      Description is any string you want
+	//      add them to the products array
 };
 
-router.count = function() { return products.length; };
+router.count = function() {
+	//  TODO: return the number of Products in the products array
+};

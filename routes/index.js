@@ -6,5 +6,10 @@ var router = module.exports = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	res.render('index', { title: 'Express', customerCount: customers.count() , productCount: products.count() , orderCount: orders.count() });
+	//  TODO: you need to get the number of Customers, Products and Orders
+	//      to render the index.jade page.
+	res.render('index', { title: 'Express', customerCount: // TODO: where will you get this value?
+											productCount:  // TODO: where will you get this value?
+											orderCount:    // TODO: where will you get this value?
+	});
 });

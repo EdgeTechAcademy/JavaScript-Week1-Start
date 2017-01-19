@@ -14,6 +14,7 @@ router.get('/', function(req, res) {
 		custInfo.orderList = orders.ordersForCustomer(customers[c].CustomerNo);
 		customerDetails.push(custInfo);
 	}
+	//  TODO: Describe the contents of the customerDetails object.
 	res.render('customers', { title: 'Our Customers', customerDetails: customerDetails });
 });
 
@@ -33,4 +34,6 @@ router.init = function() {
 	customers.push(new Customer( 'Cust 6', 'Mexico'));
 };
 
-router.count = function() { return customers.length; };
+router.count = function() {
+	//  TODO: Return the number of Customers in the customers array
+};
