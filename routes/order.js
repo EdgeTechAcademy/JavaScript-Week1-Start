@@ -16,13 +16,13 @@ router.get('/', function(req, res) {
 		}
 		orderDetails.push(orderInfo);
 	}
-	//  TODO: Describe the contents of the orderDetails object
+	//  TODO: 7 Describe the contents of the orderDetails object
 	res.render('orders', { title: 'Current Orders', orderList: orderDetails });
 });
 
 router.ordersForCustomer = function(cust) {
 	var myOrders = [];
-	//  TODO: add to the myOrders array
+	//  TODO: 8 add to the myOrders array
 	//          add all orders with the same CustomerNo as the cust parameter
 	return myOrders;
 };
@@ -56,5 +56,5 @@ router.init = function() {
 };
 
 router.count = function() {
-	//  TODO: Return the number of orders
+	//  TODO: 9 Return the number of orders
 };

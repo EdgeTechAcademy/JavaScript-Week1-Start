@@ -50,6 +50,4 @@ app.use(function(err, req, res) {
 //----------------------------------------------------------------------------------------------
 //  Let's add some data to our application to make the pages more interesting
 //----------------------------------------------------------------------------------------------
-products.init();      //  add our data to the products array
-customers.init();     //  add our data to the customers array
-orders.init();        //  add our data to the orders array
+//  TODO: 14 you need to initialize all of your data. Here would be a great place to do it

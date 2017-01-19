@@ -15,19 +15,19 @@ var Product = function(prodNo, desc) {
 };
 
 router.productsForOrders = function(productNo) {
-	//  TODO: Find the Product in the products array that matches the productNo parameter.
+	//  TODO: 12 Find the Product in the products array that matches the productNo parameter.
 	//      Once found return that Product
 };
 
 var products = [];
 
 router.init = function() {
-	//  TODO: Create 24 Products
+	//  TODO: 11 Create 24 Products
 	//      ProductNo is just 1 to 24
 	//      Description is any string you want
 	//      add them to the products array
 };
 
 router.count = function() {
-	//  TODO: return the number of Products in the products array
+	//  TODO: 12 return the number of Products in the products array
 };
