@@ -8,5 +8,4 @@ block content
     each cust in customerDetails
       li #{cust.Customer.CustomerNo} #{cust.Customer.Description}
         ul
-          each order in cust.orderList
-            li #{order.OrderNo} : #{order.ProductNo}
+          li // TODO: loop through each order in the orderList and display the OrderNo and ProductNo
