@@ -15,7 +15,7 @@ var Product = function(prodNo, desc) {
 };
 
 router.productsForOrders = function(productNo) {
-	//  TODO: 12 Find the Product in the products array that matches the productNo parameter.
+	//  TODO: 10 Find the Product in the products array that matches the productNo parameter.
 	//      Once found return that Product
 };
 
