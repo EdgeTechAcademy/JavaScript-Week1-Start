@@ -21,11 +21,8 @@ router.get('/', function(req, res) {
 
 router.ordersForCustomer = function(cust) {
 	var myOrders = [];
-	for ( var i = 0; i < orders.length; i++) {
-		if (orders[i].CustomerNo == cust) {
-			myOrders.push(orders[i]);
-		}
-	}
+	//  TODO: add to the myOrders array
+	//          add all orders with the same CustomeNo as the cust parameter
 	return myOrders;
 };
 
