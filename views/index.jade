@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  li
+    a(href='/customers') Customers: We have #{customerCount} satisfied Customers
+  li
+    a(href='/products') Show list of our #{productCount} Products
+  li
+    a(href='/orders') Show list of our Current #{orderCount} Orders

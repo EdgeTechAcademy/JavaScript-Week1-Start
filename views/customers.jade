@@ -1,0 +1,12 @@
+//
+  Created by Edge Tech Academy on 1/19/2017.
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+    each cust in customerDetails
+      li #{cust.Customer.CustomerNo} #{cust.Customer.Description}
+        ul
+          each order in cust.orderList
+            li #{order.OrderNo} : #{order.ProductNo}
