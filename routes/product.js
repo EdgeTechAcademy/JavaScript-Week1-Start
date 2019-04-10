@@ -20,14 +20,12 @@ router.productsForOrders = function(productNo) {
 };
 
 var products = [];
-
-router.init = function() {
 	//  TODO: 11 Create 24 Products
 	//      ProductNo is just 1 to 24
 	//      Description is any string you want
 	//      add them to the products array
-};
+products.push(new Product(1, 'Thor\'s Hammer');
 
-router.count = function() {
+function prodCount () {
 	//  TODO: 12 return the number of Products in the products array
 };
